@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         // Zobrazení informácí o kávě
         const infoP = document.querySelector(".info_p")
-        infoP.innerHTML = `Vybrali jste ${selectedKava.druh} cena ${selectedKava.cena} Kč. Káva se připravuje`
+        infoP.innerHTML = `Vybrali jste ${selectedKava.druh} cena ${selectedKava.cena} Kč. <br> Káva se připravuje`
 
         // Přehrání zvuku
         const audio = new Audio("./sound/coffee-machine.mp3")
