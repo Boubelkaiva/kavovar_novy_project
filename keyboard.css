@@ -1,7 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;  
-} */
 .body-num {
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,8 +6,8 @@
 
 #num-container {
     
-    width: 170px;
-    height: 150px;
+    width: 110px;
+    height: 40px;
 }
 
 #keyboard {
@@ -20,11 +16,6 @@
     list-style: none;
     align-items: center;
 
-}
-
-.payment-logo img {
-    align-items: center;
-    margin-left: 75px;
 }
 
 #keyboard li {
