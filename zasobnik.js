@@ -11,7 +11,7 @@ export default class Zasobnik {
       this.#maxObjem = 1000
       this.#minObjem = 0
       this.#aktualniObjem = 1000
-
+      
   }
   
   get_maxObjem() {
@@ -22,9 +22,6 @@ export default class Zasobnik {
       return this.#minObjem
   }
 
-  set_minObjem(minObjem) {
-      this.#minObjem = minObjem
-  }
   get_aktualniObjem() {
       return this.#aktualniObjem
   }
