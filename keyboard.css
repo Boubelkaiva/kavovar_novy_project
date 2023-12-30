@@ -10,7 +10,24 @@
     height: 40px;
 }
 
+#num-container1 {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    left: -3px;
+    margin-top: -32px;
+    
+}
+
 #keyboard {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+
+}
+
+#keyboardPin {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -29,6 +46,21 @@
     background-color: #e0dede;
     border: 1px solid #f9f9f9;
     border-radius: 5px;
+}
+
+#keyboardPin li {
+    float: left;
+    margin: 1px 1px;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #e0dede;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    margin: 1px;
+    
 }
 
 .capslock, .tab, .left-shift, .clearl, .switch {  
@@ -53,3 +85,18 @@
     border-color: #e5e5e5;
     cursor: pointer;
 }
+
+.payment-dis img {
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  #num-container1 {
+    display: none;
+  }
+
+ 
