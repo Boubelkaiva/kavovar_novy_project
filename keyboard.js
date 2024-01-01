@@ -13,8 +13,9 @@ export function showPinInputs() {
 
 export function showPin() {
     const keyboard = document.getElementById('num-container').querySelector('ul#keyboard')
+
     for (const li of keyboard.querySelectorAll('li.letter')) {
-  li.addEventListener('click', function () {
+    li.addEventListener('click', function () {
     const value = this.textContent
 
     const numContainer1 = document.getElementById('num-container1').querySelector('ul#keyboardPin')
@@ -22,9 +23,9 @@ export function showPin() {
     const inputs = numContainer1.querySelectorAll('li.letter')
 
     for (const input of inputs) {
-      if (input.textContent === "") {
-        input.textContent = value
-        break
+    if (input.textContent === "") {
+      input.textContent = value
+      break
       }
     }
 })
